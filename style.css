@@ -6,8 +6,10 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(220, 251, 255);
-    
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/5KiKmVEsCQPMNrbOE6w0Ot/341c573752bf35cb969e21fcd279d3f9/hero-img_copy.jpg?fit=fill&w=800&h=300)   !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   .flip-card {
@@ -67,6 +69,7 @@ body {
   }
   h1{
     padding-top: 5%;
+    color: white;
   }
   .active li{
     display: inline-block;
